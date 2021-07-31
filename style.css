@@ -1,0 +1,59 @@
+body
+{
+	margin: 0;
+}
+
+header
+{
+	background: silver;
+	margin: 0;
+	padding: 0;
+}
+
+header h1 
+{
+	color: #443f3f;
+	display: inline;
+	font-family: arial;
+	margin: 0;
+	padding: 1%;
+	text-align: center;
+	width: 18%;
+}
+
+nav ul
+{
+	align-items: left;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li
+{
+	/* background-color: black; */
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 .5%;
+	align-items: center;
+	width: 20%;
+}
+
+.image {width: 40%;}
+
+nav ul li img
+{
+	align-items: left;
+	display: inline;
+	max-width: 10%;
+	padding: .2% 40%;
+}
+
+nav ul li a
+{
+	color: white;
+	margin: 10% 40%;
+	max-width: 10%;
+	padding: .2% 5%;
+	text-decoration: none;
+}
